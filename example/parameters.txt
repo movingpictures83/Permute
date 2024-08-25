@@ -1,0 +1,3 @@
+csvfile	abund.csv
+outputdir	.
+numperms	3
