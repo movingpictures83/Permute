@@ -63,3 +63,5 @@ class PermutePlugin:
                        outputfile.write(',')
                    else:
                        outputfile.write('\n')
+
+           os.system("cp "+outputdirperm+"/"+filename[filename.rfind('/'):]+" "+self.outputdir)
